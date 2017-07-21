@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/playersImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/playersName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="23dp"
+        android:text="Name"
+        android:layout_toRightOf="@+id/playersImg"/>
+
+    <TextView
+        android:id="@+id/playersRuns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="45dp"
+        android:text="Runs"
+        android:layout_toRightOf="@+id/playersImg"/>
+
+</RelativeLayout>
