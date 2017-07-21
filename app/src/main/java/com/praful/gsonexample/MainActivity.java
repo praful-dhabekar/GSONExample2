@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
              * gradle app file from http://square.github.io/okhttp/ */
 
             OkHttpClient client = new OkHttpClient();
-            Request request = new Request.Builder().url("").build();
+            Request request = new Request.Builder().url("https://madhu-e399d.firebaseapp.com/data.json").build();
 
             try {
                 Response response = client.newCall(request).execute();
